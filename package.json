@@ -6,7 +6,7 @@
     "build": "cd client && npm run build",
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:api\"",
     "dev:client": "cd client && npm run dev",
-    "dev:api": "nodemon server/server.js",
+    "dev:api": "vercel dev",
     "start": "cd client && npm run preview",
     "install:all": "npm install && cd client && npm install"
   },
